@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+
+html, body{
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #373C38;
+	background: #FEDFE1;
+	margin: 0;
+	padding: 0;
+}
+
+header, nav, section, article, footer{
+    text-align: center;
+}
+
+
+/*navigation*/
+
+nav{
+	background:rgba(235, 122, 119, 1);
+	padding: 20px;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+display: inline;
+}
+
+nav li a{
+	font-weight: 500;
+	color: #554236;
+	text-decoration: none;
+	padding: 20px;
+}
+
+nav li a:hover{
+	color: #fff;
+}
+
+/*section*/
+section{
+	width: 80%; /*可依照視窗大小調整*/
+	margin: auto; /*物件置中*/
+}
+
+
+
+/*article*/
+article{
+	display: inline-block;
+  	 /*設定寬度，否則會以內容元素中最寬的元素寬度作為預設*/
+	width: 180px; 
+ 	/*設定邊寬作為檢視*/
+	border: solid 0px #ddd;
+    margin:20px;
+	text-decoration: none;
+	color: #373C38;
+}
+
+article:hover{
+	background: #86C166;
+	color: #fff;
+	/*cursor: pointer; 設定滑鼠游標*/
+}
+
+article:active{
+	background: #36563C;
+	color: #fff;
+}
+
+article:a{
+	color:#373C38;
+}
